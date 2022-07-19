@@ -1,0 +1,66 @@
+body {
+    background-color: rgb(195, 255, 232);
+}
+
+#title {
+    color: rgb(0, 128, 255);
+    font-size: 50px;
+}
+
+#enterquestion {
+    font-size: 30px;
+    color: rgb(43, 153, 193);
+    margin-bottom: 20px;
+}
+
+center {
+    margin-top: -100px;
+}
+
+#output {
+    background: white;
+    border-radius: 10px;
+    border-top: 10px solid #65bbf5;
+    padding: 10px;
+    float: none;
+    text-align: left;
+    margin-top: 20px;
+}
+
+input {
+    border-color: cornflowerblue;
+    border-width: 5px;
+    border-radius: 10px;
+    width: 200px;
+}
+
+button {
+    padding-bottom: 10px;
+    width: 70px;
+}
+
+#question {
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+#output {
+    text-align: center;
+}
+
+#p1name{
+    margin-left: 20px;
+}
+
+#p2name{
+    margin-left: 20px;
+}
+
+#num2 {
+    margin-left: 20px;
+    width: 150px;
+}
+
+#num1 {
+    width: 150px;
+}

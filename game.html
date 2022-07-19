@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Math Quiz</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" type="text/css" href="game.css">
+    </head>
+    <body>
+        <h3 id="p1name">Player 1: <span id="p1score">0</span></h3>
+        <h3 id="p2name">Player 2: <span id="p2score">0</span></h3>
+        <div class="container">
+            <center>
+                <p id="title">Multiplication Math Quiz</p>
+                <br>
+                <h2 id="questionp">Question Turn- Player 1</h2>
+                <h2 id="answerp">Answer Turn- Player 2</h2>
+                <br>
+                <div id="output" class="col-lg-6">
+                    <h3 id="question">Question: IDK</h3>
+                    <input type="text" id="answer" placeholder="Type Answer Here">
+                    <br>
+                    <br>
+                    <button class="btn btn-info" onclick="check()">Check</button>
+                </div>
+                <br>
+                <br>
+                <p id="enterquestion">Enter Numbers Here</p>
+                <input placeholder="Enter Number" type="text" id="num1">
+                <input placeholder="Enter Number" type="text" id="num2"> 
+                <br>
+                <br>
+                <button class="btn btn-primary" onclick="send()">Send</button>
+            </center>
+        </div>
+    </body>
+    <script src="game.js"></script>
+</html>

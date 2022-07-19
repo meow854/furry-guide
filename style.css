@@ -1,0 +1,41 @@
+body {
+    text-align: center;
+    background-color: pink;
+}
+
+div {
+    background-color: rgb(255, 227, 231);
+    border-radius: 50px;
+    width: fit-content;
+    padding-top: 5px;
+    padding-bottom: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 50px;
+}
+
+p{
+    font-size: 50px;
+    margin-top: 20px;
+    background-color: rgb(213, 237, 255);
+    width: fit-content;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 20px;
+}
+
+input {
+    margin-top: 20px;
+    border-color: rgb(177, 83, 99);
+    border-width: 4px;
+}
+
+#p1name {
+    margin-bottom: 30px;
+}
+
+button {
+    width: 70px;
+}
